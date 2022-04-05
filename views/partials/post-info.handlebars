@@ -3,7 +3,7 @@
     <h2>{{title}}</h2>
     <p>{{post_text}}</p>
   </div>
-  <div class="meta">
+  <div>
     By {{user.username}} on {{format_date created_at}}
     |
     <a href="/post/{{id}}" class="text-decoration-none btn btn-outline-light">{{comments.length}} {{format_plural "comment" comments.length}}</a>
